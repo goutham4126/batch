@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { IoMdMenu } from "react-icons/io";
 
@@ -13,7 +14,7 @@ function Header() {
   return (
     <div className="flex flex-col lg:flex-row justify-between items-center py-4 px-5 shadow-lg lg:shadow-none">
       <div className="flex items-center gap-8 justify-between w-full">
-          <img src="https://i.postimg.cc/7LD9dRdZ/Group.png" alt="Logo" className="h-7" />
+          <Image src="https://i.postimg.cc/7LD9dRdZ/Group.png" alt="Logo" className="h-7" height={25} width={100} />
         <div className="hidden lg:flex items-center justify-between w-full">
           <nav className="flex gap-5 font-bold">
             <Link href="#" className="text-orange-500">Home</Link>

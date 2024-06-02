@@ -1,6 +1,6 @@
 import React from 'react'
 import { TiTick } from "react-icons/ti";
-
+import Image from 'next/image';
 function Pricing() {
   return (
     <section className="text-gray-600">
@@ -10,8 +10,8 @@ function Pricing() {
           <button className="py-3 px-5 bg-orange-500 text-white rounded">Monthly</button>
         </div>
         <div className="relative">
-        <img src="https://i.postimg.cc/sxVhYCsB/Star-1.png" alt="" className="lg:block hidden absolute -left-20 h-12 w-12"/> 
-        <img src="https://i.postimg.cc/sxVhYCsB/Star-1.png" alt="" className="lg:block hidden absolute -top-44 -right-20 h-10 w-10"/> 
+        <Image src="https://i.postimg.cc/sxVhYCsB/Star-1.png" alt="" width={48} height={48} className="lg:block hidden absolute -left-20"/> 
+        <Image src="https://i.postimg.cc/sxVhYCsB/Star-1.png" alt="" width={40} height={40} className="lg:block hidden absolute -top-44 -right-20"/> 
         </div>
         <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/3 w-full">

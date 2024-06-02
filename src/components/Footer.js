@@ -1,4 +1,4 @@
-import React from 'react'
+import Image from "next/image";
 import { MdMessage } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
@@ -7,7 +7,7 @@ function Footer() {
   <footer className="">
   <div className="container px-5 py-14 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="w-52 mx-auto text-center">
-      <img src="https://i.postimg.cc/7LD9dRdZ/Group.png" alt="Logo" className="h-7" />
+      <Image src="https://i.postimg.cc/7LD9dRdZ/Group.png" width={100} height={100} alt="Logo"/>
       <p className="mt-4 text-sm flex items-center gap-3"><MdMessage className="h-5 w-5"/> help@frybix.com</p>
       <p className="mt-4 text-sm flex items-center gap-3"><FaPhoneAlt className="h-4 w-4"/>+1 234 456 678 89</p>
     </div>

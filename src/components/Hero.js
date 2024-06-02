@@ -1,6 +1,5 @@
 import React from 'react'
 import { RiVideoLine } from "react-icons/ri";
-
 function Hero() {
   return (
         <div className="flex h-screen items-center justify-between p-4">
