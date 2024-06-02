@@ -7,9 +7,6 @@ module.exports = {
     './app/**/*.{js,jsx}',
     './src/**/*.{js,jsx}',
   ],
-  images: {
-    unoptimized: true,
-  },
   prefix: "",
   theme: {
     container: {

@@ -11,6 +11,7 @@ const nextConfig = {
           "images.unsplash.com",
           "images.pexels.com",
           "nuturemite.info",
+          "encrypted-tbn0.gstatic.com"
         ]
       },
 };

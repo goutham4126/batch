@@ -4,17 +4,17 @@ import Image from "next/image"
    return (
      <div className="lg:mt-28">
             <div className="px-5 lg:py-10 mx-auto flex flex-wrap">
-                <div className="hidden lg:block lg:w-1/2 w-full mt-6">
-                        <img src="https://i.postimg.cc/L5jPSzjL/Ellipse-2156.png" alt="Logo" className="-mb-[450px]"/>
-                        <img src="https://i.postimg.cc/L5jPSzjL/Ellipse-2156.png" alt="Logo" className="-mb-[450px]"/>
-                        <img src="https://i.postimg.cc/L5jPSzjL/Ellipse-2156.png" alt="Logo"/>
-                        <img src="https://i.postimg.cc/7YNQD08V/i-Phone-13-Pro-Front-1.png" alt="" className="-mt-[530px] ml-10" style={{transform: "rotate(15deg)"}}/>
+                <div className="hidden lg:block lg:w-1/2 w-full mt-36">
+                        <Image src="https://i.postimg.cc/L5jPSzjL/Ellipse-2156.png" width={400} height={500} alt="Logo" className="-mb-[450px]"/>
+                        <Image src="https://i.postimg.cc/L5jPSzjL/Ellipse-2156.png" width={400} height={500} alt="Logo" className="-mb-[450px]"/>
+                        <Image src="https://i.postimg.cc/L5jPSzjL/Ellipse-2156.png" width={400} height={500} alt="Logo"/>
+                        <Image src="https://i.postimg.cc/7YNQD08V/i-Phone-13-Pro-Front-1.png" alt="" width={400} height={500} className="-mt-[380px] ml-10" style={{transform: "rotate(15deg)"}}/>
                 </div>
                 <div className="flex flex-col flex-wrap lg:py-6 lg:w-1/2 lg:pl-5 text-left">
                 <h1 className="text-orange-500 font-semibold ">FEATURES</h1>
                 <h1 className="text-3xl mt-2 mb-5 font-bold">Uifry Premium</h1>
                 <div class="relative">
-                    <img src="https://i.postimg.cc/sxVhYCsB/Star-1.png" alt="" className="lg:block hidden absolute right-0 bottom-10 h-12 w-12"/>
+                    <Image src="https://i.postimg.cc/sxVhYCsB/Star-1.png" height={48} width={48} alt="" className="lg:block hidden absolute right-0 bottom-10"/>
                 </div>
                 <div className="flex flex-col mb-5 gap-4 items-start">
                     <div className="flex gap-3">
